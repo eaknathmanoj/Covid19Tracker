@@ -1,0 +1,15 @@
+.table{
+    margin-top: 20px;
+    overflow: scroll;
+    height: 500px;
+    background-color: lightgrey;
+}
+
+.table tr{
+    display: flex;
+    justify-content: space-between;
+}
+
+.table td{
+    padding: 0.5rem;
+}
