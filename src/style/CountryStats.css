@@ -1,0 +1,115 @@
+.stats{
+    margin-top: 1rem;
+}
+
+.countryStatsCard{
+    margin: 10px;
+}
+
+.statsPopulation{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-end;
+    margin-right: 10px;
+}
+
+.statsPopulationHeader{
+    color: rgba(32,26,162,.6);
+    font-weight: 700;
+}
+
+.populationValue{
+    color: rgba(32,26,162,.866667);
+    font-weight: 900;
+    animation-delay: 250ms;
+}
+
+.red{
+    background: rgba(255,7,58,.12549) !important;
+    animation-delay: 0ms;
+}
+.red__light{
+    color: rgba(255,7,58,0.8) !important;
+    font-weight: 600;
+}
+
+.red__dark{
+    color: #ff073a !important;
+    font-weight: 600;
+}
+
+.blue{
+    background: rgba(0,123,255,.125) !important;
+    animation-delay: 250ms;
+}
+
+.blue__light{
+    color: rgba(0,123,255,0.8)!important;
+    font-weight: 600;
+}
+
+.blue__dark{
+    color: #007bff !important;
+    font-weight: 600;
+}
+
+.green{
+    background: rgba(40,167,69,.12549) !important;
+    animation-delay: 500ms;
+}
+
+.green__light{
+    color: rgba(40,167,69,0.8) !important;
+    font-weight: 600;
+}
+
+.green__dark{
+    color: #28a745 !important;
+    font-weight: 600;
+}
+
+.grey{
+    background: rgba(108,117,125,.125) !important;
+    animation-delay: 750ms;
+}
+
+.grey__light{
+    color: rgba(108,117,125,.8) !important;
+    font-weight: 600;
+}
+
+.grey__dark{
+    color: #6c757d !important;
+    font-weight: 600;
+}
+
+.brown{
+    background: rgba(182,133,77,.125) !important;
+    animation-delay: 1000ms;
+}
+
+.brown__light{
+    color: rgba(182,133,77,0.8) !important;
+    font-weight: 600;
+}
+
+.brown__dark{
+    color: #b6854d !important;
+    font-weight: 600;
+}
+
+.violet{
+    background: rgba(32,26,162,.12549) !important;
+    animation-delay: 1250ms;
+}
+
+.violet__light{
+    color: rgba(32,26,162,0.8) !important;
+    font-weight: 600;
+}
+
+.violet__dark{
+    color: rgba(32,26,162,.866667) !important;
+    font-weight: 600;
+}

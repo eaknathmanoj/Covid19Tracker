@@ -1,0 +1,39 @@
+.LocationHeader{
+    margin-bottom: 0.7rem;
+    height: 5rem;
+}
+.LocationHeader__card{
+    display: flex;
+    justify-content: space-between;
+}
+.LocationHeader__card--left{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+.LocationHeader__card--right{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+
+.lastUpdated{
+    color: #6c757d;
+    font-weight: 600;
+    animation-delay: 250ms;
+}
+.tested{
+    color: rgba(32,26,162,.6);
+    font-weight: 700;
+    animation-delay: 0ms;
+}
+.testedNumber{
+    color: rgba(32,26,162,.866667);
+    font-weight: 900;
+    animation-delay: 250ms;
+}
+.headerCountry{
+    animation-delay: 0ms;
+}

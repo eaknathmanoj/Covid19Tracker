@@ -1,0 +1,12 @@
+.cases{
+    animation-delay: 250ms !important;
+}
+.active{
+    animation-delay: 500ms !important;
+}
+.recovered{
+    animation-delay: 750ms !important;
+}
+.deaths{
+    animation-delay: 1000ms !important;
+}

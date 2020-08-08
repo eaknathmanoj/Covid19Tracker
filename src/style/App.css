@@ -1,5 +1,6 @@
 *{
-  margin: 0%
+  margin: 0%;
+  font-family: 'archia'
 }
 
 .app{
@@ -8,24 +9,50 @@
   padding: 20px;
 }
 
+
 .app_header{
   display: flex;
   justify-content: space-between;
   align-items: center;
-  margin-bottom: 20px;
+  margin-right: 0.75rem;
 }
 
 .app_left{
   flex: 0.9;
 }
 
+.app_right{
+  width: 23rem;
+}
+
 .app_stats{
   display: flex;
   justify-content: space-between;
+  height: 18.5rem;
+}
+
+.dataSwticher{
+  display: flex;
+  flex-direction: row-reverse;
+  animation-delay: 1250ms;
+}
+
+.titleImage{
+  height: 3rem;
 }
 
 @media (max-width: 990px){
   .app{
     flex-direction: column;
+  }
+  .app_stats{
+    flex-direction: column;
+    height: unset;
+  }
+  .app_right{
+    width: unset;
+  }
+  .titleImage{
+    height: 2rem;
   }
 }
