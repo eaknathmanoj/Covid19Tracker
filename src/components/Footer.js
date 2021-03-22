@@ -55,7 +55,7 @@ function Footer() {
                 </h5>
                 <div>
                     <Tooltip title="Code repository" arrow>
-                        <IconButton color="primary" size="small" onClick={() => window.open('https://www.linkedin.com/in/eaknathmanoj/')}>
+                        <IconButton color="primary" size="small" onClick={() => window.open('https://github.com/eaknathmanoj/Covid19Tracker')}>
                             <GitHubIcon />
                         </IconButton>
                     </Tooltip>

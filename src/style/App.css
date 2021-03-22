@@ -1,58 +1,57 @@
-*{
+* {
   margin: 0%;
-  font-family: 'archia'
+  font-family: "archia";
 }
 
-.app{
+.app {
   display: flex;
   justify-content: space-evenly;
   padding: 20px;
 }
 
-
-.app_header{
+.app_header {
   display: flex;
   justify-content: space-between;
   align-items: center;
   margin-right: 0.75rem;
 }
 
-.app_left{
+.app_left {
   flex: 0.9;
 }
 
-.app_right{
+.app_right {
   width: 23rem;
 }
 
-.app_stats{
+.app_stats {
   display: flex;
   justify-content: space-between;
   height: 18.5rem;
 }
 
-.dataSwticher{
+.dataSwticher {
   display: flex;
   flex-direction: row-reverse;
   animation-delay: 1250ms;
 }
 
-.titleImage{
+.titleImage {
   height: 3rem;
 }
 
-@media (max-width: 990px){
-  .app{
+@media (max-width: 990px) {
+  .app {
     flex-direction: column;
   }
-  .app_stats{
+  .app_stats {
     flex-direction: column;
     height: unset;
   }
-  .app_right{
+  .app_right {
     width: unset;
   }
-  .titleImage{
+  .titleImage {
     height: 2rem;
   }
 }
